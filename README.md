@@ -1,0 +1,14 @@
+# lisbon_retail-user 11 RRLS31.Q2X-70-39-3 26b7ab release-keys
+- manufacturer: 
+- platform: mt6785
+- codename: lisbon
+- flavor: lisbon_retail-user
+- release: 11
+- id: RRLS31.Q2X-70-39-3
+- incremental: 26b7ab
+- tags: release-keys
+- fingerprint: motorola/lisbon_retail/lisbon:11/RRLS31.Q2X-70-39-3/26b7ab:user/release-keys
+- is_ab: true
+- brand: motorola
+- branch: lisbon_retail-user-11-RRLS31.Q2X-70-39-3-26b7ab-release-keys
+- repo: motorola_lisbon_dump

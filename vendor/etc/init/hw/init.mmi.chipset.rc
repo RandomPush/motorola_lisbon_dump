@@ -1,0 +1,14 @@
+import /vendor/etc/init/hw/init.mmi.backup.trustlet.rc
+
+#insmod usbnet.ko when on atm mode enabled
+on early-init && property:ro.boot.atm=enable
+    insmod /vendor/lib/modules/moto_f_usbnet.ko
+
+on boot
+    # Set adaptive charging perms for HAL
+    chown system system /sys/module/qpnp_adaptive_charge/parameters/upper_limit
+    chown system system /sys/module/qpnp_adaptive_charge/parameters/lower_limit
+
+on early-init
+    insmod /vendor/lib/modules/mmi_info.ko
+    insmod /vendor/lib/modules/qpnp_adaptive_charge.ko

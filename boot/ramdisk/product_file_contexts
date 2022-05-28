@@ -1,0 +1,3 @@
+/(product|system/product)/bin/fsck\.exfat   u:object_r:fsck_exec:s0
+/(product|system/product)/bin/mkfs\.exfat   u:object_r:e2fs_exec:s0
+/(product|system/product)/bin/sg_write_buffer   u:object_r:uncrypt_exec:s0
