@@ -1,0 +1,14 @@
+# user 12 S3RLS32.114-25-3 1ae1da release-keys
+- manufacturer: motorola
+- platform: mt6785
+- codename: lisbon
+- flavor: user
+- release: 12
+- id: S3RLS32.114-25-3
+- incremental: 1ae1da
+- tags: release-keys
+- fingerprint: motorola/lisbon_retail/lisbon:12/S3RLS32.114-25-3/1ae1da:user/release-keys
+- is_ab: true
+- brand: motorola
+- branch: user-12-S3RLS32.114-25-3-1ae1da-release-keys
+- repo: motorola_lisbon_dump
