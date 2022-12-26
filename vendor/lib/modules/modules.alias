@@ -1,0 +1,35 @@
+# Aliases extracted from modules themselves.
+alias i2c:lm3697 leds_lm3697
+alias of:N*T*Cti,bq2597x-standalone bq2597x_mmi
+alias of:N*T*Cti,bq2597x-standaloneC* bq2597x_mmi
+alias of:N*T*Cti,bq2597x-master bq2597x_mmi
+alias of:N*T*Cti,bq2597x-masterC* bq2597x_mmi
+alias of:N*T*Cti,bq2597x-slave bq2597x_mmi
+alias of:N*T*Cti,bq2597x-slaveC* bq2597x_mmi
+alias i2c:bq2597x-standalone bq2597x_mmi
+alias i2c:bq2597x-master bq2597x_mmi
+alias i2c:bq2597x-slave bq2597x_mmi
+alias platform:mmi parallel charger mmi_parallel_charger
+alias of:N*T*Cmmi,chrg-manager mmi_parallel_charger
+alias of:N*T*Cmmi,chrg-managerC* mmi_parallel_charger
+alias sdio:c*v037Ad018A* wmt_drv
+alias sdio:c*v037Ad018B* wmt_drv
+alias sdio:c*v037Ad018C* wmt_drv
+alias sdio:c*v037Ad6619* wmt_drv
+alias sdio:c*v037Ad020A* wmt_drv
+alias sdio:c*v037Ad020B* wmt_drv
+alias sdio:c*v037Ad020C* wmt_drv
+alias sdio:c*v037Ad5921* wmt_drv
+alias sdio:c*v037Ad6628* wmt_drv
+alias sdio:c*v037Ad6630* wmt_drv
+alias sdio:c*v037Ad6602* wmt_drv
+alias sdio:c*v037Ad6632* wmt_drv
+alias usbfunc:usbnet moto_f_usbnet
+alias spi:fpsensor-drivers fpsensor_mtk_spi
+alias of:N*T*Cmediatek,finger-chipone fpsensor_mtk_spi
+alias of:N*T*Cmediatek,finger-chiponeC* fpsensor_mtk_spi
+alias of:N*T*Cfpc,fpc_spi fpc_mtk_tee
+alias of:N*T*Cfpc,fpc_spiC* fpc_mtk_tee
+alias i2c:aw99703-bl leds_aw99703
+alias i2c:sx933x sx933x_sar
+alias fs-exfat exfat
